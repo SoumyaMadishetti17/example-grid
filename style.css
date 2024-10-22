@@ -1,0 +1,24 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    gap: 10px;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item1 { background-color: #ff6347; } 
+.item2 { background-color: #4682b4; }
+.item3 { background-color: #3cb371; }
+.item4 { background-color: #ff69b4; }
+.item5 { background-color: #8a2be2; } 
+.item6 { background-color: #ffa500; }
+.item7 { background-color: #2e8b57; }
+.item8 { background-color: #daa520; } 
